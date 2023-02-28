@@ -4,7 +4,8 @@ const student = {
     study :'math',
     subject: ['calculus', 'algebra', 'geometry'],
     exam: function(){
-        console.log(this.money)
+       return this.money + 'This is value'
     }
 }
-student.exam()
+const output = student.exam();
+console.log(output)
