@@ -15,3 +15,13 @@ const kodomALi = {
         return this.money;
     }
 }
+
+const result = kodomALi.exam();
+
+const badam = {
+    name:'kacha badam',
+    money : 8000
+}
+
+const result2 = kodomALi.exam.call(exam)
+console.log(result2);
